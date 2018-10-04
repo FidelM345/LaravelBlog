@@ -26,7 +26,7 @@ Home
 
 
                     <div class="post">
-                            <h2>{{$item->title}}</h2>
+                            <h3>{{$item->title}}</h3>
 
                           <p>
                                 {{ substr($item->description,0,200)}}{{strlen($item->description)>50?"....":""}}
@@ -38,9 +38,6 @@ Home
                          </div>
 
                             <hr>
-
-
-
 
 
                     @endforeach
